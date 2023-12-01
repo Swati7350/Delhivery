@@ -1,4 +1,4 @@
-About Delhivery
+**About Delhivery**
 
 Delhivery is the largest and fastest-growing fully integrated player in India by revenue in Fiscal 2021. They aim to build the operating system for commerce, through a combination of world-class infrastructure, logistics operations of the highest quality, and cutting-edge engineering and technology capabilities. 
 
@@ -8,7 +8,7 @@ The Data team builds intelligence and capabilities using this data that helps th
 
  
 
-How can you help here?
+**How can you help here?**
 
 The company wants to understand and process the data coming out of data engineering pipelines: 
 
@@ -20,20 +20,12 @@ The company wants to understand and process the data coming out of data engineer
 
  
 
-Dataset
+**Dataset**
 
 Dataset Link:  delhivery_data.csv
 
-Steps to download the dataset:
-
-Open the dataset link, which will launch a new browser window displaying the raw data.
-In the newly opened window, right-click on any empty space without selecting any text, then choose "Save As."
-A window will appear, prompting you to select the destination folder where you want to save the dataset.
-Choose the desired location, provide a suitable name for the dataset, and ensure to include the ".csv" extension. Finally, click on the "Save" button. 
- 
-
-Column Profiling:
-
+**Column Profiling:
+**
 data - tells whether the data is testing or training data                         
 trip_creation_time – Timestamp of trip creation
 route_schedule_uuid – Unique Id for a particular route schedule
@@ -68,19 +60,10 @@ Relationship between Features
 Column Normalization /Column Standardization 
 Handling categorical values  
 Missing values - Outlier treatment / Types of outliers
- 
 
- 
 
-How to begin:
-
-Since delivery details of one package are divided into several rows (think of it as connecting flights to reach a particular destination). Now think about how we should treat their fields if we combine these rows? What aggregation would make sense if we merge. What would happen to the numeric fields if we merge the rows? 
-
-Hint: You can use inbuilt functions like groupby and aggregations like sum(), cumsum() to merge some rows based on their 1. Trip_uuid, Source ID and Destination ID 2. Further aggregate on the basis of just Trip_uuid. You can also keep the first and last values for some numeric/categorical fields if aggregating them won’t make sense.
-
- 
-
-Basic data cleaning and exploration:
+**Basic data cleaning and exploration:
+**
 Handle missing values in the data.
 Analyze the structure of the data.
 Try merging the rows using the hint mentioned above.
@@ -101,8 +84,8 @@ Do one-hot encoding of categorical variables (like route_type)
 Normalize/ Standardize the numerical features using MinMaxScaler or StandardScaler.
  
 
-Evaluation Criteria (100 Points):
-
+**Evaluation Criteria (100 Points):
+**
 Define Problem Statement and perform Exploratory Data Analysis (10 points)
 Definition of problem (as per given problem statement with additional views)
 Observations on shape of data, data types of all the attributes, conversion of categorical attributes to 'category' (If required), missing value detection, statistical summary.
